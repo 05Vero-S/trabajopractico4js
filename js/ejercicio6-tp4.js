@@ -23,7 +23,7 @@ get Isbn(){
     return this.Isbn;
 }
 
-set Isbn(nuevoIsbn){
+set nueIsbn(nuevoIsbn){
     this.Isbn = nuevoIsbn;
 }
 
@@ -31,7 +31,7 @@ get titulo(){
     return this.titulo;
 }
 
-set titulo(nuevoTitulo){
+set nueTitulo(nuevoTitulo){
     this.titulo = nuevoTitulo;
 }
 
@@ -39,7 +39,7 @@ get autor(){
     return this.autor;
 }
 
-set autor(nuevoAutor){
+set nueAutor(nuevoAutor){
     this.autor = nuevoAutor;
 }
 
@@ -47,7 +47,7 @@ get numeroPaginas(){
     return this.numeroPaginas;
 }
 
-set numeroPaginas(nuevoNumPaginas){
+set nueNumeroPaginas(nuevoNumPaginas){
     this.numeroPaginas = nuevoNumPaginas;
 }
 
@@ -75,4 +75,7 @@ if(libro1.numeroPaginas>libro2.numeroPaginas){
 }else{
     document.write(`El libro ${libro2.titulo} tiene más páginas`);
 }
+
+
+//NOTA: Tengo el mismo error que en el ejercicio 4 del tp. 
 

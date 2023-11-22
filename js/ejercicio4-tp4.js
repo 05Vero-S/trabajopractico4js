@@ -10,7 +10,7 @@ class Producto{
     get codigo(){
         return this.codigo;
     }
-    set codigo(nuevoCodigo){
+    set nueCodigo(nuevoCodigo){
         this.codigo = nuevoCodigo;
 
     }
@@ -18,7 +18,7 @@ class Producto{
     get nombre(){
         return this.nombre;
     }
-    set nombre(nuevoNombre){
+    set nueNombre(nuevoNombre){
         this.nombre = nuevoNombre;
 
     }
@@ -27,7 +27,7 @@ class Producto{
     get precio(){
         return this.precio;
     }
-    set precio(nuevoPrecio){
+    set nuePrecio(nuevoPrecio){
         this.precio = nuevoPrecio;
 
     }
@@ -55,3 +55,4 @@ producto3.imprimirDatos();
 
 console.log(producto1);
 
+//NOTA: me sale un error, que no entiendo como solucionarlo(linea 5)

@@ -12,3 +12,4 @@ const cuenta = {
     saldo: 0,    
 }
 
+//no lo pude realizar al ejercicio
